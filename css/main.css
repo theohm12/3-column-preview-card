@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 2em 6em;
+}
+
+.mainBox {
+    display: flex;
+    flex-direction: row;
+    margin: 5em;
+    padding: 0;
+    width: 1300px;
+    height: 650px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: red;
+
+}
+
+.carType {
+    font-family: 'Big Shoulders Display', sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: white;
+}
+
+.text {
+    margin: 2em 0;
+    margin-bottom: 5em;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 2em;
+    font-size: 15px;
+    font-weight: lighter;
+    color: white;
+    text-align: left;
+}
+
+.Box-left {
+    margin: 0px;
+    padding: 4em ;
+    padding-right: 10em;
+    width: 35%;
+    background-color: var(--Bright-orange);
+}
+
+.Box-left img {
+    margin-bottom: 2em;
+}
+
+.Button1 {
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 1em 2em;
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+    color: var(--Bright-orange); 
+}
+
+.Button1:hover {
+    border: 1px solid white;
+    background-color: var(--Bright-orange);
+    color: white;
+    
+}
+/*---------------------------------------------------------*/
+.Box-middle {
+    margin: 0px;
+    padding: 4em;
+    padding-right: 10em;
+    width: 35%;
+    background-color: var(--Dark-cyan);
+}
+
+.Box-middle img {
+    margin-bottom: 2em;
+}
+
+.Button2 {
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 1em 2em;
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+    color: var(--Dark-cyan);  
+}
+
+.Button2:hover {
+    border: 1px solid white;
+    background-color: var(--Dark-cyan-orange);
+    color: white;
+    
+}
+/*---------------------------------------------------------*/
+.Box-right {
+    margin: 0px;
+    padding: 4em ;
+    padding-right: 8.5em;
+    width: 35%;
+    background-color: var(--Very-dark-cyan);
+}
+
+.Box-right img {
+    margin-bottom: 2em;
+}
+
+.Button3 {
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: white;
+    padding: 1em 2em;
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+    color: var(--Dark-cyan);
+}
+
+.Button3:hover {
+    border: 1px solid white;
+    background-color: var(--Very-dark-cyannge);
+    color: white;
+
+}
+
+@media only screen and (max-width: 960px) {
+
+    body {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        height: 140vh;
+        margin: 2em 6em;
+    }
+
+    .mainBox {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 400px;
+        height: 1440px;
+        overflow: hidden;
+        border-radius: 15px;
+        background-color: red;
+    
+    }
+
+    .text {
+        flex-direction: block;
+        margin-top: 2em ;
+        margin-bottom: 2em;
+        padding: 0;
+        font-family: 'Lexend Deca', sans-serif;
+        line-height: 2em;
+        font-size: 15px;
+        font-weight: lighter;
+        color: white;
+        text-align: left;
+    }
+    .Box-left {
+        margin: 0px;
+        padding: 4em;
+        width: 400px;
+        height: 480px;
+    }
+    
+
+    .Box-middle {
+        margin: 0px;
+        padding: 4em;
+        width: 400px;
+        height: 480px;
+        background-color: var(--Dark-cyan);
+    }
+
+    .Box-right {
+        margin: 0px;
+        padding: 4em;
+        width: 400px;
+        height: 480px;
+    }
+
+
+    
+
+
+
+
+
+
+    
+    
+}
+
+
